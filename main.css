@@ -285,6 +285,10 @@ footer .footer-box {
     margin-bottom: 40px;
 }
 
+footer p {
+    padding-top: 5px;
+}
+
 
 
 /* screens less than 858 px */
