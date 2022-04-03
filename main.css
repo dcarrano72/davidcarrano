@@ -1,4 +1,3 @@
-
 /* All */
 
 * {
@@ -14,7 +13,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: bold;
     color: #247099;
@@ -25,6 +27,7 @@ img {
 }
 
 a {
+    text-decoration: none;
     color: #247099;
 }
 
@@ -37,25 +40,28 @@ a {
     background-color: #343C3F;
     padding: 0;
     margin: 0;
-    
-}
-@keyframes animatedBackground {
-  from {
-    background-position: -180px 0;
-    
-  }
-  to {
-    background-position: 120% 0;
 
-  }
 }
+
+@keyframes animatedBackground {
+    from {
+        background-position: -180px 0;
+
+    }
+
+    to {
+        background-position: 120% 0;
+
+    }
+}
+
 #animate-area {
-  width: 100%;
-  height: 4px;
-  background-image: url(./images/bluelight.png);
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
-  animation: animatedBackground 3s ease forwards;
+    width: 100%;
+    height: 4px;
+    background-image: url(./images/bluelight.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    animation: animatedBackground 3s ease forwards;
 }
 
 
@@ -120,7 +126,16 @@ nav ul li a {
 }
 
 .phone {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    z-index: 100;
+}
+
+.phone a {
+    text-decoration: none;
     font-size: 1.2em;
+    color: #fff;
 }
 
 
@@ -130,7 +145,6 @@ nav ul li a {
 .display {
     display: flex;
     justify-content: space-between;
-    min-height: 240px;
     width: 94%;
     margin-top: 34px;
     margin-bottom: 20px;
@@ -139,13 +153,12 @@ nav ul li a {
 }
 
 .display-box {
-    height: 360px;
     width: 33%;
+    border: none;
 }
 
 .display-box img {
     width: 100%;
-    height: 100%;
     border: none;
 }
 
@@ -224,7 +237,7 @@ section p {
 .project-img {
     max-width: 600px;
     width: 100%;
-    margin: auto;    
+    margin: auto;
 }
 
 .illustration {
@@ -277,24 +290,34 @@ footer .footer-box {
 /* screens less than 540 px */
 
 @media screen and (max-width: 540px) {
-    nav .brand-logo {
-    padding-left: 20px;
-    position: absolute;
-    left: 10px;
-    top: 48px;
-    width: 300px;
-    height: 150px;
-    z-index: 110;
+    header {
+        height: 140px;
     }
 
-    .nav-bar-bg {
-        position: absolute;
-        right: 50px;
-        top: 117px;
-        background-color: #2D2D2D;
-        width: 70%;
-        height: 57px;
-        z-index: 100;
+    .display {
+        margin-top: 15px;
+    }
+
+    .box-label {
+        font-size: .8em;
+        min-height: 60px;
+    }
+
+    .logo {
+        width: 150px;
+        top: 10px;
+        left: 10px;
+    }
+
+    nav {
+        top: 100px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .phone {
+        font-size: .7em;
     }
 }
 
@@ -303,13 +326,13 @@ footer .footer-box {
 /* screens less than 1060px */
 
 @media screen and (max-width: 1060px) {
-   .nav-bar-bg {
-    position: absolute;
-    right: 50px;
-    top: 117px;
-    background-color: #2D2D2D;
-    width: 50%;
-    height: 57px;
-    z-index: 100;
-    } 
+    .nav-bar-bg {
+        position: absolute;
+        right: 50px;
+        top: 117px;
+        background-color: #2D2D2D;
+        width: 50%;
+        height: 57px;
+        z-index: 100;
+    }
 }
