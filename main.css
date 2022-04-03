@@ -122,7 +122,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: .7em;
+    font-size: .6em;
 }
 
 .phone {
@@ -189,10 +189,29 @@ section p {
     padding-top: 20px;
 }
 
+section h1, section h2, section h3 {
+    color: black;
+}
+
 .outer {
     min-height: 100px;
 }
 
+
+
+/* contact form */
+
+.contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #222527;
+}
 
 
 
