@@ -287,9 +287,9 @@ footer .footer-box {
 
 
 
-/* screens less than 540 px */
+/* screens less than 600 px */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
     header {
         height: 140px;
     }
