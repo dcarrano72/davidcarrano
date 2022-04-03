@@ -1,0 +1,5 @@
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?davidcarrano\.com
+RewriteRule ^(.*)$ https://www.davidcarrano.com/$1 [R,L]
