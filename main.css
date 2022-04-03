@@ -276,12 +276,12 @@ footer {
     display: flex;
     justify-content: center;
     align-content: space-between;
+    font-size: .8em;
 }
 
 footer .footer-box {
-    width: 30%;
+    width: 50%;
     min-height: 300px;
-    border: solid 2px gray;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -291,6 +291,7 @@ footer .footer-box {
 /* screens less than 858 px */
 
 @media screen and (max-width: 858px) {
+
     header {
         height: 140px;
     }
@@ -301,7 +302,6 @@ footer .footer-box {
 
     .box-label {
         font-size: .8em;
-        min-height: 60px;
     }
 
     .logo {
@@ -329,12 +329,18 @@ footer .footer-box {
         font-weight: bold;
         top: 40px;
     }
+
+    section p {
+        font-size: .8em;
+    }
 }
 
 
 
-/* screens less than 1060px */
+/* screens less than 546px */
 
-@media screen and (max-width: 1060px) {
-    
+@media screen and (max-width: 546px) {
+    .box-label {
+        min-height: 60px;
+    }
 }
