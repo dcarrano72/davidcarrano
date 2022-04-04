@@ -434,7 +434,7 @@ footer p {
     .display-box {
         width: 100%;
         margin-right: 0px;
-        margin-bottom: 80px;
+        margin-bottom: 10px;
     }
 
     .display {
@@ -457,9 +457,7 @@ footer p {
 /* screens less than 546px */
 
 @media screen and (max-width: 546px) {
-    .box-label {
-        min-height: 60px;
-    }
+    
 }
 
 
@@ -498,7 +496,5 @@ footer p {
         margin-top: 90px;
     }
 
-    .display-box {
-        margin-bottom: 10px;
-    }
+    
 }
