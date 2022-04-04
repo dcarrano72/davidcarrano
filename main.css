@@ -19,12 +19,9 @@ h3,
 h4 {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: bold;
-    color: #247099;
+    color: #191d1f;
 }
 
-img {
-    border: solid 3px hsl(203, 14%, 19%);
-}
 
 a {
     text-decoration: none;
@@ -172,11 +169,11 @@ section p {
     font-size: .8em;
 }
 
-section h1,
+/* section h1,
 section h2,
 section h3 {
     color: #247099;
-}
+} */
 
 section h2 {
     font-size: 1.1em;
