@@ -17,4 +17,4 @@
 
 -check fonts for logo and heading tags 
 
--check out netlify for hosting
+
