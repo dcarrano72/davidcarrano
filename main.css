@@ -31,7 +31,9 @@ a {
     color: #247099;
 }
 
-
+.current {
+    font-weight: bold;
+}
 
 /* gray line with blue light */
 
@@ -194,7 +196,11 @@ section p {
 section h1,
 section h2,
 section h3 {
-    color: black;
+    color: #247099;
+}
+
+section h2 {
+    font-size: 1.1em;
 }
 
 .outer {
