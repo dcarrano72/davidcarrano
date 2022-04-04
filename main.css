@@ -239,7 +239,7 @@ section h3 {
     color: #247099;
     margin-bottom: 10px;
     background-color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact-form input:focus {
@@ -255,7 +255,7 @@ section h3 {
     color: #247099;
     height: 100px;
     background-color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact-form textarea:focus {
