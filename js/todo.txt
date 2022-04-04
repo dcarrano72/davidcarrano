@@ -15,3 +15,5 @@
 -add media query styles for width less than 400px
 
 -check fonts for logo and heading tags 
+
+-check out netlify for hosting
