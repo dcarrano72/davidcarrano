@@ -235,6 +235,12 @@ section h1, section h2, section h3 {
     color: #247099;
     margin-bottom: 10px;
     background-color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact-form input:focus {
+    outline: none;
+    background-color:hsl(200, 10%, 11%);
 }
 
 .contact-form textarea {
@@ -245,6 +251,12 @@ section h1, section h2, section h3 {
     color: #247099;
     height: 100px;
     background-color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact-form textarea:focus {
+    outline: none;
+    background-color:hsl(200, 10%, 11%);
 }
 
 .submit-button {
