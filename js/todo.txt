@@ -13,6 +13,6 @@ done-fix text styling in form fields
 
 done-add media query styles for width less than 400px
 
--check fonts for logo and heading tags 
+done-check fonts for logo and heading tags 
 
 

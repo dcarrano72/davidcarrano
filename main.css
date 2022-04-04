@@ -207,10 +207,7 @@ section h2 {
     text-align: right;
     padding-right: 40px;
     padding-left: 40px;
-}
-
-.contact-form label {
-    font-size: .8em;
+    text-align: center;
 }
 
 .contact-form input {
@@ -219,6 +216,7 @@ section h2 {
     border: none;
     font-size: .8em;
     color: #247099;
+    text-align: left;
     margin-bottom: 10px;
     background-color: black;
     font-family: 'Roboto', sans-serif;
@@ -235,6 +233,7 @@ section h2 {
     border: none;
     font-size: .8em;
     color: #247099;
+    text-align: left;
     height: 100px;
     background-color: black;
     font-family: 'Roboto', sans-serif;
@@ -252,6 +251,10 @@ section h2 {
     font-size: .8em;
     color: #247099;
     background-color: black;
+    margin-top: 20px;
+}
+
+.recaptcha {
     margin-top: 20px;
 }
 
