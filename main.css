@@ -52,7 +52,7 @@ a {
     }
 
     to {
-        background-position: 120% 0;
+        background-position: 190% 0;
 
     }
 }
@@ -63,7 +63,7 @@ a {
     background-image: url(./images/bluelight.png);
     background-position: 0px 0px;
     background-repeat: no-repeat;
-    animation: animatedBackground 3s ease forwards;
+    animation: animatedBackground 2s ease forwards;
 }
 
 
