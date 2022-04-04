@@ -198,6 +198,13 @@ section h1, section h2, section h3 {
 }
 
 
+/* services */
+
+.service-box {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
 
 /* contact form */
 
