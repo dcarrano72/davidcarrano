@@ -7,7 +7,7 @@
 -make php script for form processor
 -add recaptcha for form security
 -add additional form security
--fix text styling in form fields
+done-fix text styling in form fields
 
 -write text for home page
 -write text for services page 
