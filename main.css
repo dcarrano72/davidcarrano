@@ -260,6 +260,11 @@ section h2 {
     margin-right: auto;
 }
 
+.g-recaptcha div:first-child
+  {
+    margin: auto;
+  }
+
 
 
 
