@@ -11,6 +11,7 @@ body {
     background-color: #3A4449;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 h1,
@@ -86,7 +87,7 @@ a {
 nav {
     position: absolute;
     top: 50px;
-    right: 200px;
+    right: 230px;
     width: 800px;
     text-align: right;
 }
@@ -105,8 +106,8 @@ nav ul li a {
 
 .phone {
     position: absolute;
-    top: 50px;
-    right: 30px;
+    top: 52px;
+    right: 46px;
     z-index: 100;
 }
 
@@ -161,19 +162,14 @@ section {
     margin-right: auto;
     margin-left: auto;
     padding: 40px;
-    min-height: 500px;
+    min-height: 400px;
+    max-width: 1000px;
 }
 
 section p {
     padding-top: 20px;
     font-size: .8em;
 }
-
-/* section h1,
-section h2,
-section h3 {
-    color: #247099;
-} */
 
 section h2 {
     font-size: 1.1em;
@@ -364,7 +360,18 @@ footer h2 {
     color:  #247099;
 }
 
+/* screens less than 1000px */
+@media screen and (max-width: 1000px) {
 
+    .phone {
+        right: 30px;
+    }
+    
+    nav {
+        right: 210px; 
+    }
+
+}
 
 /* screens less than 858 px */
 
