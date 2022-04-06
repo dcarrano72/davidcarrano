@@ -192,6 +192,25 @@ section h2 {
     margin-bottom: 40px;
 }
 
+.service-box h2:first-child {
+    margin-top: 40px;
+}
+
+.service-list {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.service-list {
+    list-style-type: none;
+    font-size: .7em;
+}
+
+.service-list li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 
 /* contact form */
 
@@ -261,10 +280,9 @@ section h2 {
     margin-right: auto;
 }
 
-.g-recaptcha div:first-child
-  {
+.g-recaptcha div:first-child {
     margin: auto;
-  }
+}
 
 
 
@@ -362,7 +380,7 @@ footer p {
 }
 
 footer h2 {
-    color:  #247099;
+    color: #247099;
 }
 
 /* screens less than 1000px */
@@ -371,9 +389,9 @@ footer h2 {
     .phone {
         right: 30px;
     }
-    
+
     nav {
-        right: 210px; 
+        right: 210px;
     }
 
 }
@@ -433,7 +451,7 @@ footer h2 {
     .box-label {
         font-size: .8em;
     }
-    
+
 }
 
 
@@ -466,9 +484,7 @@ footer h2 {
 
 /* screens less than 546px */
 
-@media screen and (max-width: 546px) {
-    
-}
+@media screen and (max-width: 546px) {}
 
 
 
@@ -506,5 +522,5 @@ footer h2 {
         margin-top: 90px;
     }
 
-    
+
 }
