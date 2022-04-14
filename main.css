@@ -191,8 +191,9 @@ section h2 {
 }
 
 .call-text a {
-    color:hsl(200, 10%, 11%);
+    color:hsl(195, 10%, 8%);
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .phone-number {
