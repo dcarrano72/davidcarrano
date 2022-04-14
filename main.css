@@ -137,6 +137,9 @@ nav ul li a {
     width: 33%;
     border: none;
     background-color: #2D3538;
+    background-image: url("./images/displayboxbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .display-box img {
@@ -192,7 +195,7 @@ section h2 {
 }
 
 .call-text a {
-    color:hsl(195, 10%, 8%);
+    color: hsl(195, 10%, 8%);
     text-decoration: underline;
     font-weight: bold;
 }
