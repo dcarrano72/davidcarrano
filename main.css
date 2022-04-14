@@ -190,6 +190,15 @@ section h2 {
     margin-bottom: 40px;
 }
 
+.call-text a {
+    color:hsl(200, 10%, 11%);
+    text-decoration: underline;
+}
+
+.phone-number {
+    font-weight: bold;
+}
+
 
 /* services */
 
