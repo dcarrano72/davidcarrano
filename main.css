@@ -31,6 +31,7 @@ a {
 
 .current {
     font-weight: bold;
+    color: #247099;
 }
 
 /* gray line with blue light */
